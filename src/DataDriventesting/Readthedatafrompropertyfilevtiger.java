@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Readthedatafrompropertyfilevtiger 
 {
 	public static WebDriver driver;
+
 public static void main(String[] args) throws IOException, InterruptedException 
 {
 	FileInputStream fis=new FileInputStream("./files/commondata1.properties");
